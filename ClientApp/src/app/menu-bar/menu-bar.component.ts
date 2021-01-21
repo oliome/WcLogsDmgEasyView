@@ -15,8 +15,8 @@ export class MenuBarComponent implements OnInit {
     'Access-Control-Allow-Headers': 'Content-Type',
   });
   public endpoint = "/Logs/GetFromLogAsync/";
-  private players: Players[];
-  private report: string;
+  public players: Players[];
+  public report: string;
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
