@@ -1,0 +1,25 @@
+<mat-accordion class="example-headers-align" multi>
+  <!--<div class="example-action-buttons">
+    <button mat-button (click)="accordion.openAll()">Expand All</button>
+    <button mat-button (click)="accordion.closeAll()">Collapse All</button>
+  </div>-->
+  <mat-expansion-panel
+    (opened)="beforePanelOpened(player)"
+    (closed)="beforePanelClosed(player)"
+    (afterCollapse)="afterPanelClosed($event)"
+    (afterExpand)="afterPanelOpened($event)"
+
+    *ngFor="let player of players" class="{{player.type}}">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{player.name}}
+      </mat-panel-title>
+      <mat-panel-description>
+        <p> {{player.type}}</p>
+      </mat-panel-description>
+
+    </mat-expansion-panel-header>
+    <img id ="{{player.id}}" src="">
+  </mat-expansion-panel>
+
+</mat-accordion>

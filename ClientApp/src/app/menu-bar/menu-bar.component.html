@@ -1,0 +1,10 @@
+
+<div class = "reportSearch">
+  <h2>
+    Report ID
+  </h2>
+  <input #reportId type="text" />
+  <button (click)="getReport(reportId.value)">Fetch</button>
+</div>
+
+<app-player-table [players]= players [report]=report></app-player-table>

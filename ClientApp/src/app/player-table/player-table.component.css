@@ -1,0 +1,55 @@
+.example-action-buttons {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.Druid .mat-expansion-panel-header {
+  background: orange !important;
+  border: solid 2px black;
+}
+.Rogue .mat-expansion-panel-header {
+  background: yellow !important;
+  border: solid 2px black;
+}
+.Hunter .mat-expansion-panel-header {
+  background: yellowgreen !important;
+  border: solid 2px black;
+}
+.Mage .mat-expansion-panel-header {
+  background: lightskyblue !important;
+  border: solid 2px black;
+}
+.Warlock .mat-expansion-panel-header {
+  background: darkorchid !important;
+  border: solid 2px black;
+}
+.Priest .mat-expansion-panel-header {
+  background: whitesmoke !important;
+  border: solid 2px black;
+}
+.Paladin .mat-expansion-panel-header {
+  background: pink !important;
+  border: solid 2px black;
+}
+.Shaman .mat-expansion-panel-header {
+  background: pink !important;
+  border: solid 2px black;
+}
+.Warrior .mat-expansion-panel-header {
+  background: tan !important;
+  border: solid 2px black;
+}
+
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.example-headers-align .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
